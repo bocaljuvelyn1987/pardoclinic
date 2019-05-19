@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18.0",
+        "bootstrap": "^4.3.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.1.14",
+        "lodash": "^4.17.11",
+        "popper.js": "^1.14.7",
+        "vue": "^2.6.10"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.8.1",
+        "admin-lte": "^3.0.0-alpha.2",
+        "laravel-vue-pagination": "^2.3.0",
+        "moment": "^2.24.0",
+        "qrcode.vue": "^1.6.1",
+        "sweetalert2": "^7.33.1",
+        "vform": "^1.0.0",
+        "vue-event-calendar": "^1.5.2",
+        "vue-full-calendar": "^2.7.0",
+        "vue-fullcalendar": "^1.0.9",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.0.2",
+        "vue-star-rating": "^1.6.1",
+        "vue2-google-maps": "^0.10.6",
+        "vuetify": "^1.5.7"
+    }
+}
